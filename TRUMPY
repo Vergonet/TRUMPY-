@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trumpy Coin</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body, html {
+      height: 100%;
+    }
+    .background {
+      background-image: url('Cartoon-style_illustration_of_a_generic_President_.png'); /* Replace with the exact filename */
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      text-align: center;
+      background-attachment: fixed;
+    }
+    .content {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px 40px;
+      border-radius: 8px;
+    }
+    .content h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .content a {
+      color: #ffd700;
+      font-size: 1.5em;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .content a:hover {
+      color: #ff4500;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="background">
+    <div class="content">
+      <h1>Trumpy Coin</h1>
+      <p><a href="https://x.com/trumpy_coinsol?s=21" target="_blank">TRUMPY X here!</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
